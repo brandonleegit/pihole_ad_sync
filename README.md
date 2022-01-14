@@ -18,7 +18,7 @@ The file is then copied over to the Pihole server
 
 ## What you need to do
 
-1). Replace the variables in the PowerShell script to match your domain, scp user password, and pihole connection properties
-2). Create a non-privileged user on your Pihole server to use for the file upload
-3). Replace the path for the home directory in the shell script to match your user created that accepts the upload
-4). Create a CRON job to run the import.sh script to copy over the DNS entries
+- 1). Replace the variables in the PowerShell script to match your domain, scp user password, and pihole connection properties
+- 2). Create a non-privileged user on your Pihole server to use for the file upload
+- 3). Replace the path for the home directory in the shell script to match your user created that accepts the upload
+- 4). Create a CRON job to run the import.sh script to copy over the DNS entries
