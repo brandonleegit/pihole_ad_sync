@@ -8,7 +8,7 @@ Synchronize Pihole local dns with Microsoft Active Directory DNS
 - The file is SCPed by PowerShell to my primary Pihole server
 - A cron job runs and copies entires from the uploaded file to the custom.list file in etc/pihole/ directory
 - It restarts the DNS server in Pihole (a quick process)
-- GravitySync (a separate community project) synchronizes the DNS entries between the primary Pihole server and the secondary Pihole server.
+- [GravitySync](https://github.com/vmstan/gravity-sync) (a separate community project) synchronizes the DNS entries between the primary Pihole server and the secondary Pihole server.
 
 ## Different parts of the script
 
